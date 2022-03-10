@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Endereço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="body">
+        <fieldset id="main">
+            <h3> Insira o seu CEP </h3>
+            <input type="text"id="CEP">
+            <button onclick="consulta()" id="botão"> consultar endereço</button>
+            <br>
+            <br>
+            <div class="conteudo-cep">
+                <p>
+                    Logradouro: <output id="Logradouro"></output>
+                </p>
+                <p>
+                    Bairro: <output id="Bairro"></output>
+                </p>
+                <p>
+                    Cidade: <output id="Cidade"></output>
+                </p>
+                <p>
+                    UF: <output id="UF"></output>
+                </p>
+            </div>
+        </fieldset>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
