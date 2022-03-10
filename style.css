@@ -1,0 +1,36 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+     background-color: wheat;
+}
+
+
+#main{
+    background-image: linear-gradient(to right, rgb(126, 71, 71), grey);
+    border-radius: 10px;
+    border: 1px solid rgb(121, 119, 119);
+    box-shadow: 8px 10px 10px rgb(0, 0, 0);
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    width: 50vh;
+    height: 30vh;
+}
+
+h3{
+    background-color: white;
+   border-radius: 10px;
+    border: 1px solid black;
+}
+
+p{
+    border-bottom: 1px solid black;
+}
+
+.conteudo-cep{
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);    
+    text-align: left;
+    background-color: white;
+    border: 1px solid black;
+}
